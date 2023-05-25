@@ -1,0 +1,35 @@
+/**********Background Image Fixed in Website**********/
+
+body{
+    background-image: url("bg-img.jpg");
+    color: white;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+
+.icons{
+    align-items: center;
+    align-content: center;
+}
